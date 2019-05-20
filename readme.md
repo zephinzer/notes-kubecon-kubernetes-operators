@@ -1,6 +1,23 @@
 # Notes from KubeCon Kubernetes Operators Workshop by Red Hat
 
-## Setup
+Contents
+
+- [Tutorials](./tutorials)
+    - The original workshop material
+- [Repositories](./repos)
+    - Repositories linked from this repository
+
+## Setup Linked Repositories
+
+These are included as Git submodules, initialise with:
+
+```sh
+git submodule init
+git submodule sync
+git submodule update --init
+```
+
+## Setup MiniKube
 
 ### 1. Install MiniKube
 
